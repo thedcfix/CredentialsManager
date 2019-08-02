@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Gestione utente applicativi IBM</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header"></header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Rierca credenziali</h1>
+										<p>Inserisci quanti più campi puoi per migliorare la ricerca</p>
+									</header>
+
+									<hr class="major" />
+
+									<form method="post">
+										<div class="row gtr-uniform">
+											<div class="col-3 col-12-xsmall">
+												<input type="text" name="username" id="username" value="" placeholder="Utenza" />
+											</div>
+											<div class="col-3 col-12-xsmall">
+												<input type="text" name="service" id="service" value="" placeholder="Nome del servizio" />
+											</div>
+											<div class="col-3 col-12-xsmall">
+												<input type="text" name="company" id="company" value="" placeholder="Azienda" />
+											</div>
+											<div class="col-3 col-12-xsmall">
+												<input type="text" name="environment" id="environment" value="" placeholder="Ambiente" />
+											</div>
+											<div class="col-12">
+													<input name="send" type="submit" value="Cerca" class="primary" />
+													<input type="reset" value="Cancella" />
+											</div>
+										</div>
+									</form>
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<a href="index.html"><h2>Home</h2></a>
+									</header>
+									<ul>
+										<li><a href="search_key.html">Ricerca credenziali</a></li>
+										<li><a href="update_key.html">Aggiorna credenziali</a></li>
+										<li><a href="create_key.html">Inserisci nuove credenziali</a></li>
+										<li><a href="delete_key.html" style="color: #f56a6a">Cancella credenziali</a></li>
+									</ul>
+								</nav>
+						</div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+	</body>
+</html>

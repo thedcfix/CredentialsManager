@@ -1,0 +1,6 @@
+  applications:
+  - name: web
+    random-route: true
+    memory: 1G
+    instances: 1
+    memory: 512M
