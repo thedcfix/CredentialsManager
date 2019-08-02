@@ -7,4 +7,4 @@ If you'r interested in an open source implementation, give a look at how to setu
 
 ![Alt text](Figure_1.png?raw=true)
 
-In case you wanted, the application is container-ready and is provided with a Dockerfile to run it without having to configure annoying things. Just remember the containerized version needs to be adjusted to work with MongoDB. Have fun!
+In case you wanted, the application is container-ready and is provided with a Dockerfile to run it without having to configure annoying things. Just remember the containerized version needs to be adjusted to work with MongoDB (you'll also have to give a look at the connection part). Have fun!
